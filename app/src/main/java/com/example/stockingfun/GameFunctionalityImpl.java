@@ -53,7 +53,7 @@ public class GameFunctionalityImpl {
         }
         return false;
     }
-    public boolean isColliding(TextView scoreTracker, Activity activity, int screenWidth) {
+    public boolean isColliding(TextView scoreTracker, Activity activity) {
         if(!hasReachedStocking()) {
             return false;
         }
@@ -63,7 +63,7 @@ public class GameFunctionalityImpl {
         if(type == VerticalObject.Color.COAL) {
             vibrate(activity);
             coalCount++;
-            addCoalImage(coalCount, activity, screenWidth);
+            addCoalImage(coalCount);
         } else {
             updateScore(scoreTracker);
         }
@@ -91,7 +91,7 @@ public class GameFunctionalityImpl {
         scoreTracker.setText(newScore);
         score += 10;
     }
-    private void addCoalImage(int coalCount, Activity activity, int screenWidth) {
+    private void addCoalImage(int coalCount) {
        try {
            theGame.getCoalImages(coalCount).setVisibility(View.VISIBLE);
        } catch (NullPointerException e) {

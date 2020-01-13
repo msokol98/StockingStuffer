@@ -38,12 +38,13 @@ public class AnimationController {
                             GameFunctionalityImpl g = new GameFunctionalityImpl(activity, stocking, vertObjManager, a, b);
 
                             if(g.isCoalCountThree()) {
-                                EndHandler.endGame(activity, screenWidth, screenHeight, handler);
+                                EndHandler.endGame(activity, handler);
                             }
                             float progress = (float) animation.getAnimatedValue();
                             int y = (int) progress;
                             vertObjManager.getVertObj(a, b).changeY(y);
-                            if(g.isColliding(scoreTracker, activity, screenWidth)) {
+                            if(g.isColliding(scoreTracker, activity
+                            )) {
                                 vertObjManager.getVertObj(a, b).deleteImg();
                                 animation.cancel();
                         }

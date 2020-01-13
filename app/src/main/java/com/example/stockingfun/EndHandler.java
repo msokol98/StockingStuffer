@@ -18,7 +18,7 @@ public class EndHandler {
         activity.finish();
     }
 
-    public static void endGame(final Activity activity, int screenWidth, int screenHeight, Handler handler) {
+    public static void endGame(final Activity activity, Handler handler) {
 
        if(theEnder == null) {
            theEnder = new EndHandler(activity, handler);
