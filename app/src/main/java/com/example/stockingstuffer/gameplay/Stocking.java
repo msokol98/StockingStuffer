@@ -54,8 +54,8 @@ public class Stocking {
         float temp4 =  temp3/density;
         int deltaX2 = PixelConverter.convert((int) temp4, activity);
 
-        left = new Coordinate(lp.leftMargin+deltaX1, STOCKING_Y);
-        right = new Coordinate(lp.leftMargin+deltaX2, STOCKING_Y);
+        left = new Coordinate(-50, STOCKING_Y);
+        right = new Coordinate(100, STOCKING_Y);
 
         coordinates.put("left", left);
         coordinates.put("right", right);
