@@ -1,4 +1,4 @@
-package com.example.stockingfun;
+package com.example.stockingstuffer.gameplay;
 
 public class Coordinate {
 

@@ -1,4 +1,4 @@
-package com.example.stockingfun;
+package com.example.stockingstuffer.gameplay;
 
 import android.animation.ObjectAnimator;
 import android.graphics.Color;
@@ -16,6 +16,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.ConstraintSet;
+
+import com.example.stockingfun.R;
+import com.example.stockingstuffer.helpers.MainActivity;
+import com.example.stockingstuffer.helpers.PixelConverter;
 
 public class theGame extends AppCompatActivity {
 

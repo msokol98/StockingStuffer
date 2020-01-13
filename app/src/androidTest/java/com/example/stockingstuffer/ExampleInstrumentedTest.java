@@ -1,4 +1,4 @@
-package com.example.stockingfun;
+package com.example.stockingstuffer;
 
 import android.content.Context;
 

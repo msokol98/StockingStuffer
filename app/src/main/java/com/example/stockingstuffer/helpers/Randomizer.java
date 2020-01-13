@@ -1,7 +1,7 @@
-package com.example.stockingfun;
+package com.example.stockingstuffer.helpers;
 
-import java.util.Random;
 import java.util.List;
+import java.util.Random;
 
 public class Randomizer {
 

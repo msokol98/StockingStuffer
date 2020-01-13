@@ -1,4 +1,4 @@
-package com.example.stockingfun;
+package com.example.stockingstuffer.gameplay;
 
 import android.animation.ObjectAnimator;
 import android.app.Activity;
@@ -8,6 +8,10 @@ import android.widget.ImageView;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.ConstraintSet;
+
+import com.example.stockingfun.R;
+import com.example.stockingstuffer.helpers.PixelConverter;
+import com.example.stockingstuffer.helpers.Randomizer;
 
 import java.util.ArrayList;
 import java.util.List;

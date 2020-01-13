@@ -1,4 +1,4 @@
-package com.example.stockingfun;
+package com.example.stockingstuffer.helpers;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

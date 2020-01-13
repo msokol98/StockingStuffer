@@ -1,4 +1,4 @@
-package com.example.stockingfun;
+package com.example.stockingstuffer.gameplay;
 
 import android.content.Intent;
 import android.graphics.Color;
@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
+import com.example.stockingfun.R;
 
 public class Scores extends AppCompatActivity {
 

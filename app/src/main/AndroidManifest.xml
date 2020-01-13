@@ -11,14 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".Scores"></activity>
-        <activity android:name=".theGame" />
+        <activity android:name="com.example.stockingstuffer.gameplay.Scores"></activity>
+        <activity android:name="com.example.stockingstuffer.gameplay.theGame" />
 
         <service
-            android:name=".MusicService"
+            android:name="com.example.stockingstuffer.helpers.MusicService"
             android:enabled="true" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.stockingstuffer.helpers.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

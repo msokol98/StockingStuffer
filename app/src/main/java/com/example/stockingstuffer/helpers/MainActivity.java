@@ -1,4 +1,4 @@
-package com.example.stockingfun;
+package com.example.stockingstuffer.helpers;
 
 import android.annotation.SuppressLint;
 import android.content.ComponentName;
@@ -14,6 +14,11 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
+import com.example.stockingfun.R;
+import com.example.stockingstuffer.gameplay.theGame;
+import com.example.stockingstuffer.helpers.HomeWatcher;
+import com.example.stockingstuffer.helpers.MusicService;
 
 
 public class MainActivity extends AppCompatActivity {

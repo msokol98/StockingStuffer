@@ -1,10 +1,12 @@
-package com.example.stockingfun;
+package com.example.stockingstuffer.gameplay;
 
 import android.app.Activity;
 import android.view.View;
 import android.widget.ImageView;
 
 import androidx.constraintlayout.widget.ConstraintLayout;
+
+import com.example.stockingstuffer.helpers.PixelConverter;
 
 import java.util.HashMap;
 import java.util.Map;
